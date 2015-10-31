@@ -12,17 +12,18 @@ library(xtable)
 library(ascii)
 w.start()
 w.menu()
+# import self-defined fucntions
+source("../script/report.R")
 ```
 
 # 主营业务收入分析
 
 ```{r, echo=FALSE, results='asis'}
 codes <- "600000.SH,600016.SH,600036.SH,601166.SH"
-report.dates <- unlist(strsplit("20140331,20140630,20140930,20141231,20150331,20150630,20150930,20151231", ","))
 report.names <- unlist(strsplit("2014Q1,2014Q2,2014Q3,2014Q4,2015Q1,2015Q2,2015Q3,2015Q4", ","))
 
 d <- data.frame(strsplit(codes, ","))
-for (rd in report.dates) 
+for (rd in rpt.dates(c("2014", "2015"))) 
   d <- cbind(d, w.wss(codes, 'qfa_oper_rev', paste("rptDate=", rd), 'rptType=1')$Data[2])
 
 d[-1] <- d[-1] / 100000000
