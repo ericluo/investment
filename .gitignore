@@ -1,21 +1,13 @@
-# History files
-.Rhistory
-.Rapp.history
+_site/*
+_theme_packages/*
 
-# Session Data files
-.RData
+Thumbs.db
+.DS_Store
 
-# Example code in package build process
-*-Ex.R
+!.gitkeep
 
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-doc/*.html
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-*.swp
+.rbenv-version
+.rvmrc
+_site
+.sass-cache
+.jekyll-metadata
