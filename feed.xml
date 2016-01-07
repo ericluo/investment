@@ -6,8 +6,8 @@
 </description>
     <link>http://ericluo.github.io/investment/</link>
     <atom:link href="http://ericluo.github.io/investment/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 19:39:40 +0800</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 19:39:40 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 19:46:07 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 19:46:07 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -1026,8 +1026,7 @@ Location list is bound to the currently active window, quickfix list is availabl
 
 &lt;p&gt;标注完成后，将处理好的图片文件剪切到上述同步工具所指定的同步目录，然后就可以在文档中引用该图片文件了。&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;    !&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;](http://7xonmk.com1.z0.glb.clouddn.com/图片文件名称)
-    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;  !&lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;](http://7xonmk.com1.z0.glb.clouddn.com/图片文件名称)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;其中，&lt;code class=&quot;highlighter-rouge&quot;&gt;site.cloud_url&lt;/code&gt; 为在 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;中设置的七牛网云存储对应的地址。&lt;/p&gt;
 
