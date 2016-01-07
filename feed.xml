@@ -6,13 +6,15 @@
 </description>
     <link>http://ericluo.github.io/investment/</link>
     <atom:link href="http://ericluo.github.io/investment/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 19:46:07 +0800</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 19:46:07 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 22:28:21 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 22:28:21 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>2016年投资展望</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;2016年投资策略思考&lt;/h2&gt;
+        <description>&lt;p&gt;2016&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;2016年投资策略思考&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -768,6 +770,8 @@ Location list is bound to the currently active window, quickfix list is availabl
         <link>http://ericluo.github.io/investment/2015/11/29/vim-tricks.html</link>
         <guid isPermaLink="true">http://ericluo.github.io/investment/2015/11/29/vim-tricks.html</guid>
         
+        <category>vim</category>
+        
         
       </item>
     
@@ -1067,6 +1071,8 @@ Location list is bound to the currently active window, quickfix list is availabl
         <category>投资</category>
         
         <category>写作</category>
+        
+        <category>git</category>
         
         
         <category>investment</category>
