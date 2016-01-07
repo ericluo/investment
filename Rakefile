@@ -84,13 +84,14 @@ namespace :site do
     # Copy site to gh-pages dir.
     puts "Building site into gh-pages branch..."
     ENV['JEKYLL_ENV'] = 'production'
-    `jekyll build -s ./ -d ./gh-pages`
-    # require "jekyll"
-    # Jekyll::Commands::Build.process({
-    #   "source"       => File.expand_path("."),
-    #   "destination"  => File.expand_path("gh-pages"),
-    #   "sass"         => { "style" => "compressed" }
-    # })
+    # `JEKYLL_ENV=production bundle exec jekyll build -s ./ -d ./gh-pages`
+    require "jekyll"
+    Jekyll::Commands::Build.process({
+      "config"       => File.expand_path("./_config.yml"),
+      "source"       => File.expand_path("."),
+      "destination"  => File.expand_path("gh-pages"),
+      "sass"         => { "style" => "compressed" }
+    })
 
     File.open('gh-pages/.nojekyll', 'wb') { |f| f.puts(":dog: food.") }
 
