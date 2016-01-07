@@ -6,8 +6,8 @@
 </description>
     <link>http://ericluo.github.io/investment/</link>
     <atom:link href="http://ericluo.github.io/investment/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 18:09:13 +0800</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 18:09:13 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 18:35:08 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 18:35:08 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -335,10 +335,7 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#modes&quot; id=&quot;markdown-toc-modes&quot;&gt;Modes&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#normal-mode&quot; id=&quot;markdown-toc-normal-mode&quot;&gt;Normal mode&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#vims-operator-commands&quot; id=&quot;markdown-toc-vims-operator-commands&quot;&gt;Vim’s Operator commands&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#vims-grammer&quot; id=&quot;markdown-toc-vims-grammer&quot;&gt;Vim’s Grammer&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#vims-operator-commands&quot; id=&quot;markdown-toc-vims-operator-commands&quot;&gt;Vim’s Operator commands&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#insert-mode&quot; id=&quot;markdown-toc-insert-mode&quot;&gt;Insert mode&lt;/a&gt;&lt;/li&gt;
@@ -961,11 +958,7 @@ Location list is bound to the currently active window, quickfix list is availabl
   &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;写作平台&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#windowsgit&quot; id=&quot;markdown-toc-windowsgit&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Windows&lt;/code&gt;环境下&lt;code class=&quot;highlighter-rouge&quot;&gt;Git&lt;/code&gt;设置&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;写作环境设置&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;图片处理&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;截图与图片处理&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;图片引用&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;图片处理&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;发布平台&lt;/a&gt;&lt;/li&gt;
