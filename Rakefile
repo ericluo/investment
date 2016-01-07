@@ -55,7 +55,7 @@ namespace :site do
     puts "Checking for gh-pages dir..."
     unless File.exist?("./gh-pages")
       puts "Creating gh-pages dir..."
-      sh "git clone git@github.com:jekyll/jekyll gh-pages"
+      sh "git clone git@github.com:ericluo/investment gh-pages"
     end
 
     # Ensure latest gh-pages branch history.
@@ -73,7 +73,9 @@ namespace :site do
       gh-pages/.gitignore
     ]
     FileList["gh-pages/{*,.*}"].exclude(*purge_exclude).each do |path|
-      sh "rm -rf #{path}"
+      require 'fileutils'
+      FileUtils.rm_rf(path)
+      # sh "rm -rf #{path}"
     end
 
     # Copy site to gh-pages dir.
@@ -81,7 +83,7 @@ namespace :site do
     ENV['JEKYLL_ENV'] = 'production'
     require "jekyll"
     Jekyll::Commands::Build.process({
-      "source"       => File.expand_path("site"),
+      "source"       => File.expand_path("."),
       "destination"  => File.expand_path("gh-pages"),
       "sass"         => { "style" => "compressed" }
     })
@@ -93,7 +95,9 @@ namespace :site do
     sha = `git rev-parse HEAD`.strip
     Dir.chdir('gh-pages') do
       sh "git add ."
-      sh "git commit --allow-empty -m 'Updating to #{sha}.'"
+      # git will fail because of the ' instead of "
+      # sh "git commit --allow-empty -m 'Updating to #{sha}'"
+      sh "git commit --allow-empty -m \"Updating to #{sha}.\""
       sh "git push origin gh-pages"
     end
     puts 'Done.'
