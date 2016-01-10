@@ -4,7 +4,7 @@ title: 个人研究平台搭建
 date: 2015-11-23
 categories: investment
 author: 罗文波
-tags: 投资 写作
+tags: 投资 写作 git
 ---
 
 * 主要内容
@@ -63,9 +63,9 @@ tags: 投资 写作
 
 标注完成后，将处理好的图片文件剪切到上述同步工具所指定的同步目录，然后就可以在文档中引用该图片文件了。
 
-    {% raw %}
-    ![]({{site.cloud_url}}/图片文件名称)
-    {% endraw %}
+{% highlight markdown %}
+  ![]({{site.cloud_url}}/图片文件名称)
+{% endhighlight %}
 
 其中，`site.cloud_url` 为在 `_config.yml`中设置的七牛网云存储对应的地址。
 

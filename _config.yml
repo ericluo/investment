@@ -10,8 +10,8 @@ title: 桃李不言
 email: 3944134@qq.com
 description: > # this means to ignore newlines until "baseurl:"
     客观平和，坚持自我
-baseurl: "investment" # the subpath of your site, e.g. /blog
-url: "http://ericluo.github.io" # the base hostname & protocol for your site
+baseurl: /investment # the subpath of your site, e.g. /blog
+url: http://ericluo.github.io # the base hostname & protocol for your site
 twitter_username: jekyllrb
 xueqiu_username:  sailor
 github_username:  ericluo
@@ -26,7 +26,7 @@ kramdown:
     auto_ids: true
     footnote_nr: 1
     entity_output: as_char
-    toc_levels: 1..4
+    toc_levels: 1..3
 
 tag_page_layout: tag_page
 tag_page_dir: tag    

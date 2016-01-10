@@ -33,10 +33,13 @@ namespace :site do
   desc "Generate the site"
   task :generate do
     require "jekyll"
-    Jekyll::Commands::Build.process({
-      "source"      => File.expand_path("."),
-      "destination" => File.expand_path("_site")
-    })
+    # Jekyll::Commands::Build.process({
+    #   "source"      => File.expand_path("."),
+    #   "destination" => File.expand_path("_site"),
+    #   "safe" => false
+    # })
+
+    `jekyll build -s ./ -d ./_site`
   end
   task :build => :generate
 
@@ -81,12 +84,13 @@ namespace :site do
     # Copy site to gh-pages dir.
     puts "Building site into gh-pages branch..."
     ENV['JEKYLL_ENV'] = 'production'
-    require "jekyll"
-    Jekyll::Commands::Build.process({
-      "source"       => File.expand_path("."),
-      "destination"  => File.expand_path("gh-pages"),
-      "sass"         => { "style" => "compressed" }
-    })
+    `bundle exec jekyll build -s ./ -d ./gh-pages`
+    # require "jekyll"
+    # Jekyll::Commands::Build.process({
+    #   "source"       => File.expand_path("."),
+    #   "destination"  => File.expand_path("gh-pages"),
+    #   "sass"         => { "style" => "compressed" }
+    # })
 
     File.open('gh-pages/.nojekyll', 'wb') { |f| f.puts(":dog: food.") }
 
