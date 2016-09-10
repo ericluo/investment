@@ -43,6 +43,23 @@ au InsertLeave * set imdisable
 
 注意：如果再进入插入模式会自动切换到正常模式之前的输入法。
 
+## VIM 文件编码
+
+如何改变打开文件的编码格式呢？可以通过 `set fileencoding=cp936` 来将当前 `buffer` 的文件编码设置为 `cp936` 。注意：当前 buffer 的文件编码格式可以状态栏有显示。
+
+* encoding:
+  表示 VIM 内部使用的字符编码格式，一般使用 `utf-8`
+
+* termencoding:
+  用于屏幕显示的编码
+
+* fileencoding:
+  磁盘文件存储时使用的编码
+
+* fileencodings:
+  探测文件编码格式时尝试的编码集队列
+
+
 # Modes
 
 ## Normal mode
