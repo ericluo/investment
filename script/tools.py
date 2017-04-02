@@ -1,7 +1,7 @@
 import os
 
 stmts = ["balance_sheet.txt", "income_statement.txt", "cash_flow_statement.txt"]
-kws = ["bs", "is", "cs"]
+kws = ["bas", "ins", "cfs"]
 
 ofn = os.path.relpath("docs/subject_mapper.txt", __file__)
 with open(ofn,  "wt", encoding='utf8') as outf:
